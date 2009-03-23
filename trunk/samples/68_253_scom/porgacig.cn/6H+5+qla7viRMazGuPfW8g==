@@ -1,0 +1,19 @@
+HTTP/1.1 302 Found
+Content-Length: 192
+Date: Mon, 23 Feb 2009 06:03:36 GMT
+Server: nginx/0.5.35
+Content-Type: text/html
+Set-Cookie: SL_2_0000=_0_; domain=porgacig.cn; path=/; expires=Wed, 25-Feb-2009 06:03:36 GMT
+Location: http://porgacig.cn/nuc/index.php
+X-Polipo-Location: http://porgacig.cn/sss/in.cgi?2
+X-Polipo-Date: Mon, 23 Feb 2009 06:13:39 GMT
+X-Polipo-Access: Mon, 23 Feb 2009 08:28:57 GMT
+
+<html>
+<head>
+<meta http-equiv="REFRESH" content="1; URL='http://porgacig.cn/nuc/index.php'">
+</head>
+<body>
+document moved <a href="http://porgacig.cn/nuc/index.php">here</a>
+</body>
+</html>

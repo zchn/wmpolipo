@@ -1,0 +1,58 @@
+HTTP/1.1 200 OK
+Content-Length: 2166
+Date: Thu, 12 Mar 2009 07:08:31 GMT
+Cache-Control: private
+Server: Microsoft-IIS/6.0
+Content-Type: text/html
+X-Polipo-Location: http://www.gzc.com.cn/articletp.asp?F_CategoryID=7&num=8
+X-Polipo-Date: Thu, 12 Mar 2009 07:16:59 GMT
+X-Polipo-Access: Wed, 18 Mar 2009 08:57:55 GMT
+
+
+<LINK 
+href="img/style.css" type=text/css rel=stylesheet>
+<table cellspacing="0" cellpadding="1" width="100%" border="0">
+  <tbody>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>2008流行色--精彩赏析</font>' href='ShowNews.asp?ID=1771'> 
+        · <font color=>2008流行色--精彩赏析</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>校园幽默:文科生vs理科生</font>' href='ShowNews.asp?ID=1734'> 
+        · <font color=>校园幽默:文科生vs理科生</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>大学生眼中的时尚</font>' href='ShowNews.asp?ID=1684'> 
+        · <font color=>大学生眼中的时尚</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>纽约时装周阐释时尚新定义</font>' href='ShowNews.asp?ID=1682'> 
+        · <font color=>纽约时装周阐释时尚新定义</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>男人形象时尚新概念</font>' href='ShowNews.asp?ID=1681'> 
+        · <font color=>男人形象时尚新概念</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=>精品女包让你风华绝代</font>' href='ShowNews.asp?ID=1658'> 
+        · <font color=>精品女包让你风华绝代</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=#000000>全球十大奢华时尚品牌[组图]</font>' href='ShowNews.asp?ID=1656'> 
+        · <font color=#000000>全球十大奢华时尚品牌[组图]</font> </a></td>
+    </tr>
+    
+    <tr align="0" > 
+      <td valign="top" nowrap="nowrap"> <a target="_blank" title = '<font color=#000000>06-07年秋冬时装流行趋势发布</font>' href='ShowNews.asp?ID=1623'> 
+        · <font color=#000000>06-07年秋冬时装流行趋势发布</font> </a></td>
+    </tr>
+    
+  </tbody>
+</table>

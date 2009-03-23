@@ -1,0 +1,22 @@
+HTTP/1.1 403 Forbidden
+Content-Length: 529
+Date: Mon, 16 Mar 2009 08:19:35 GMT
+Server: nginx/0.5.35
+Content-Type: text/html
+X-Polipo-Location: http://ipru.ru/i/28556
+X-Polipo-Date: Mon, 16 Mar 2009 08:28:02 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:28:02 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body bgcolor="white">
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx/0.5.35</center>
+</body>
+</html>
+<!-- The padding to disable MSIE's friendly error page -->
+<!-- The padding to disable MSIE's friendly error page -->
+<!-- The padding to disable MSIE's friendly error page -->
+<!-- The padding to disable MSIE's friendly error page -->
+<!-- The padding to disable MSIE's friendly error page -->
+<!-- The padding to disable MSIE's friendly error page -->

@@ -1,0 +1,16 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 32
+Date: Mon, 16 Mar 2009 08:19:39 GMT
+Expires: Sat, 15 Mar 2008 21:00:00 GMT
+Cache-Control: must-revalidate
+Server: 0W/0.8c
+Content-Type: text/html
+Location: http://counter.yadro.ru/hit?q;t11.6;r;s1024*768*32;uhttp%3A//inbux.info/;0.30264686394170065
+Pragma: no-cache
+P3P: policyref="/w3c/p3p.xml", CP="UNI"
+Set-Cookie: FTID=19lWkR0k1E0c; path=/; expires=Mon, 15 Mar 2010 21:00:00 GMT; domain=.yadro.ru
+X-Polipo-Location: http://counter.yadro.ru/hit?t11.6;r;s1024*768*32;uhttp%3A//inbux.info/;0.30264686394170065
+X-Polipo-Date: Mon, 16 Mar 2009 08:28:07 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:28:07 GMT
+
+<html><body>Moved</body></html>

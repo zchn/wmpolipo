@@ -1,0 +1,48 @@
+HTTP/1.1 200 OK
+Content-Length: 1908
+Date: Thu, 12 Mar 2009 07:08:31 GMT
+Cache-Control: private
+Server: Microsoft-IIS/6.0
+Content-Type: text/html
+X-Polipo-Location: http://www.gzc.com.cn/articletp1.asp?F_CategoryID=12&num=6
+X-Polipo-Date: Thu, 12 Mar 2009 07:17:00 GMT
+X-Polipo-Access: Wed, 18 Mar 2009 08:57:55 GMT
+
+
+<LINK 
+href="img/style.css" type=text/css rel=stylesheet>
+<body bgcolor="#DDEEF7"><table cellspacing="0" cellpadding="1" width="100%" border="0">
+  <tbody>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=#000000>中国88所大学毕业生薪水排行榜</font>' href='ShowNews.asp?ID=1747'> 
+        · <font color=#000000>中国88所大学毕业生薪水排行榜</font> </a></td>
+    </tr>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=#000000>中国18所百年名校一览</font>' href='ShowNews.asp?ID=1733'> 
+        · <font color=#000000>中国18所百年名校一览</font> </a></td>
+    </tr>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=#000000>如何火眼金睛辨识海外高校</font>' href='ShowNews.asp?ID=1726'> 
+        · <font color=#000000>如何火眼金睛辨识海外高校</font> </a></td>
+    </tr>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=>2007中国大学排行榜</font>' href='ShowNews.asp?ID=1723'> 
+        · <font color=>2007中国大学排行榜</font> </a></td>
+    </tr>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=>北京大学概况</font>' href='ShowNews.asp?ID=1720'> 
+        · <font color=>北京大学概况</font> </a></td>
+    </tr>
+    
+    <tr align="0" bgcolor="#ffffff"> 
+      <td valign="top" nowrap="nowrap" bgcolor="#DDEEF7"> <a target="_blank" title = '<font color=#000000>985工程院校名单</font>' href='ShowNews.asp?ID=1713'> 
+        · <font color=#000000>985工程院校名单</font> </a></td>
+    </tr>
+    
+  </tbody>
+</table>

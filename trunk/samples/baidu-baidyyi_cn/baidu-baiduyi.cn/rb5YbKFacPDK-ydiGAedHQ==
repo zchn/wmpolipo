@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Length: 1173
+ETag: "04ec7ac688cc91:5af"
+Date: Mon, 23 Feb 2009 02:18:06 GMT
+Last-Modified: Wed, 11 Feb 2009 16:49:16 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://baidu-baiduyi.cn/a0158353/mlink.html
+X-Polipo-Date: Mon, 23 Feb 2009 02:39:52 GMT
+X-Polipo-Access: Mon, 23 Feb 2009 03:45:10 GMT
+
+<script type="text/javascript" src="swfobject.js"></Script>
+<div id="flashcontent">111</div><div id="flashversion">222</div>
+<script type="text/javascript">
+var foshan20=deconcept.SWFObjectUtil.getPlayerVersion();var foshan02="fengkuang";
+if(foshan20['major']==9){document.getElementById('flashversion').innerHTML="";if(foshan20['rev']==115){var so=new SWFObject("m15.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']==64){var so=new SWFObject("m64.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']==47){var so=new SWFObject("m47.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']==45){var so=new SWFObject("m45.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']==28){var so=new SWFObject("m28.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']==16){var so=new SWFObject("m16.swf","mymovie","0.1","0.1","9","#000000");so.write("flashcontent")}else if(foshan20['rev']>=124){if(document.getElementById){document.getElementById('flashversion').innerHTML=""}}}
+</Script>

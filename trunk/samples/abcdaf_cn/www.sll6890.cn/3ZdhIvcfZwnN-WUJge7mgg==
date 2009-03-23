@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Length: 55
+ETag: "0995228e793c91:5e9"
+Date: Wed, 25 Feb 2009 02:53:14 GMT
+Last-Modified: Sat, 21 Feb 2009 05:42:18 GMT
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.sll6890.cn/a8/flash.js
+X-Polipo-Date: Wed, 25 Feb 2009 03:03:58 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 04:00:52 GMT
+
+var version=deconcept.SWFObjectUtil.getPlayerVersion();

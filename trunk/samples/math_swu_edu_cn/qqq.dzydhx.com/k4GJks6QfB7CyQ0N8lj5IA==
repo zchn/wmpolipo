@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+Content-Length: 199
+Date: Tue, 03 Mar 2009 02:21:45 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+X-Polipo-Location: http://qqq.dzydhx.com/gm.js
+X-Polipo-Date: Tue, 03 Mar 2009 02:33:11 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 02:33:11 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>404 Not Found</TITLE>
+</HEAD><BODY>
+<H1>Not Found</H1>
+The requested URL /gm.js was not found on this server.<P>
+</BODY></HTML>

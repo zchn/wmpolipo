@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Length: 463
+Date: Mon, 16 Mar 2009 08:21:59 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: must-revalidate
+Server: Apache/2.2.9 (Fedora)
+X-Powered-By: PHP/5.2.6
+Content-Type: text/html
+X-Polipo-Location: http://web-rom.ru/?get_code
+X-Polipo-Date: Mon, 16 Mar 2009 08:30:27 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:30:27 GMT
+
+if (use_webromru_code==undefined){ document.write('<script language="JavaScript" src="http://web-rom.ru/?get_code&js_doc_url='+escape(document.URL)+'&js_doc_ref='+escape(document.referrer)+'&js_nav_appCodeName='+escape(navigator.appCodeName)+'&js_nav_appName='+escape(navigator.appName)+'&js_nav_platform='+escape(navigator.platform)+'&opener='+(parent.window.opener? 1: 0)+'&wr_check_hash=9a12732ea41ccebdc932670e6314f8cc"></script>'); } var use_webromru_code=1;

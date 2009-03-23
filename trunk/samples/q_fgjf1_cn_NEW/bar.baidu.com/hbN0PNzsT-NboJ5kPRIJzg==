@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Content-Length: 289
+Date: Tue, 24 Feb 2009 10:34:21 GMT
+Last-Modified: Tue, 03 Feb 2009 09:27:00 GMT
+Expires: Fri, 22 Feb 2019 10:34:21 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/plain
+X-Polipo-Location: http://bar.baidu.com/update/barcab/control.txt?tn=baiducb6&id=BDBAREX_D_278C949E0F6BC7C-70A173C980CC9EEA&version=131206&t=1235471662
+X-Polipo-Date: Tue, 24 Feb 2009 10:44:37 GMT
+X-Polipo-Access: Tue, 24 Feb 2009 10:44:37 GMT
+
+[baike]
+enable=1
+tn=
+
+[BDSearchPrompt]
+
+[OSearchPrompt]
+
+
+[adbtn]
+
+
+[fav]
+enable=1
+tn=
+
+[passport]
+enable=1
+tn=
+
+[homepage]
+gethistory=&my.baidu.com&
+
+[media]
+minsize=20480
+mediatype=&flv&mp3&rm&mp4&wma&avi&wmv&mpeg&mpg&asf&rmvb&mov&3gp&
+logenable = 1
+
+
+[namedSites]
+fileVersion=20080825
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Length: 103
+ETag: "c09f6437a197c91:2c0"
+Date: Thu, 26 Feb 2009 05:38:41 GMT
+Last-Modified: Wed, 25 Feb 2009 23:31:43 GMT
+Content-Type: text/plain
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Polipo-Location: http://222.189.239.69/down.txt
+X-Polipo-Date: Thu, 26 Feb 2009 05:49:36 GMT
+X-Polipo-Access: Thu, 26 Feb 2009 05:49:36 GMT
+
+http://222.189.239.69/xxb.exe
+xxbaaa.exe
+http://222.189.239.69/setup_1027251.exe
+setup_1027251.exe

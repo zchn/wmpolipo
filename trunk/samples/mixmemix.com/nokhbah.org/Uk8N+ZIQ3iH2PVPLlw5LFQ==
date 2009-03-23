@@ -1,0 +1,20 @@
+HTTP/1.1 404 Not Found
+Content-Length: 406
+Date: Fri, 13 Mar 2009 08:15:33 GMT
+Server: Secured by AraServ
+Content-Type: text/html; charset=iso-8859-1
+X-Polipo-Location: http://nokhbah.org/up-pic/uploads/3f1c16d560.exe
+X-Polipo-Date: Fri, 13 Mar 2009 08:23:51 GMT
+X-Polipo-Access: Fri, 13 Mar 2009 08:23:51 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>404 Not Found</TITLE>
+</HEAD><BODY>
+<H1>Not Found</H1>
+The requested URL /up-pic/uploads/3f1c16d560.exe was not found on this server.<P>
+<P>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.
+<HR>
+<ADDRESS>Apache/1.3.41 Server at nokhbah.org Port 80</ADDRESS>
+</BODY></HTML>

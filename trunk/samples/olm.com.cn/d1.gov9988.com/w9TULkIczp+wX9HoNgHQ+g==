@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Content-Length: 83
+Date: Tue, 17 Mar 2009 05:49:55 GMT
+Content-Type: text/html
+Server: Microsoft-IIS/6.0
+X-Polipo-Location: http://d1.gov9988.com/01/5.htm
+X-Polipo-Date: Tue, 17 Mar 2009 05:59:28 GMT
+X-Polipo-Access: Tue, 17 Mar 2009 05:59:28 GMT
+
+<html><head><title>Error</title></head><body>系统找不到指定的文件。
+</body></html>

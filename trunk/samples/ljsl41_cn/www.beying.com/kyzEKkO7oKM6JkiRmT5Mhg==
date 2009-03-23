@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Length: 253
+ETag: "a492d7695bcc91:36b3"
+Date: Wed, 25 Feb 2009 09:24:30 GMT
+Last-Modified: Mon, 01 Sep 2008 17:51:51 GMT
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.beying.com/baidu.js
+X-Polipo-Date: Wed, 25 Feb 2009 09:40:11 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:40:11 GMT
+
+document.write ('<script language="javascript" type="text/javascript" src="http://js.users.51.la/772535.js"></script>');
+document.writeln("<script language=\"javascript\" src=\"http:\/\/count29.51yes.com\/click.aspx?id=291798936&logo=12\"><\/script>");

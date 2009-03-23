@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Thu, 26 Feb 2009 06:05:24 GMT
+Last-Modified: Fri, 11 Aug 2006 04:25:26 GMT
+Expires: Sun, 24 Feb 2019 06:05:24 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/plain
+X-Polipo-Location: http://60.28.22.73/bdinfo.txt?userip=172.31.25.159&url=[http://toolbar.baidu.com/sobar/404.html?q=http://x.ty339.com/downt.htm&txt=]&navigate=578&download=2750&userstop=0&userid=BDBAREX_D_278C949E0F6BC7C-70A173C980CC9EEA&dns=[162.105.163.116]&version=[2.0.2.134]&pagesize=[0]
+X-Polipo-Date: Thu, 26 Feb 2009 06:15:59 GMT
+X-Polipo-Access: Thu, 26 Feb 2009 06:15:59 GMT
+

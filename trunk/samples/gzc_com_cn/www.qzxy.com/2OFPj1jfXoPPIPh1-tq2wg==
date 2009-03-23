@@ -1,0 +1,18 @@
+HTTP/1.1 404 Not Found
+Content-Length: 305
+Date: Thu, 12 Mar 2009 07:09:18 GMT
+Server: Apache/2.2.6 (Unix) PHP/5.2.5 mod_jk/1.2.25
+Content-Type: text/html; charset=iso-8859-1
+X-Polipo-Location: http://www.qzxy.com/logo.gif
+X-Polipo-Date: Thu, 12 Mar 2009 07:17:01 GMT
+X-Polipo-Access: Wed, 18 Mar 2009 08:57:56 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /logo.gif was not found on this server.</p>
+<hr>
+<address>Apache/2.2.6 (Unix) PHP/5.2.5 mod_jk/1.2.25 Server at www.qzxy.com Port 80</address>
+</body></html>

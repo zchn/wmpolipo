@@ -1,0 +1,106 @@
+HTTP/1.1 200 OK
+Content-Length: 2797
+Date: Mon, 16 Mar 2009 08:20:35 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: must-revalidate
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Powered-By: PHP/5.2.6
+Pragma: no-cache
+Content-type: text/html
+X-Polipo-Location: http://popuptraf.ru/script/js.php?id=11433&mode=clickunder
+X-Polipo-Date: Mon, 16 Mar 2009 08:29:03 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:29:04 GMT
+
+	    
+		js_4419GlobalClick=0;
+		
+		function event4419under()
+		{	
+			document.onmouseup=click4419under;
+		}
+		
+		document.onmousemove=event4419under;		
+
+		event4419under();
+
+		window.onload=event4419under();
+		
+		function click4419under()
+		{	
+			js_4419GlobalClick=js_4419GlobalClick+1;	
+			if(js_4419GlobalClick<2)	
+			{ 			
+				Traf4419Ru = GetCookie4419('11433.clickunder4419');
+				if (Traf4419Ru == null)
+				{
+					popup_4419ClUpTrafRu('1000000');
+				}
+			}
+		}
+		
+		function popup_4419ClUpTrafRu(gocode)
+		{
+			day = new Date();
+		
+			URL654 = "http://yahahaa.com/search.php?id=11433&go=" + gocode + "&close=" + gocode + "&hash=d309cd6396e744600c943fada20f686a0&domain=inbux.info&adult=";
+			URL171 = "http://yahahaa.com/search.php?id=11433&go=" + gocode + "&close=" + gocode + "&hash=d309cd6396e744600c943fada20f686a&domain=inbux.info&adult=";
+			URL725 = "http://yahahaa.com/searcn.php?id=11433&go=" + gocode + "&close=" + gocode + "&hash=d309cd6396e744600c943fada20f686a&domain=inbux.info&adult=";
+
+			id = day.getTime();
+
+			eval("page" + id + " = window.open(URL171, '" + id + "', 'toolbar=1,scrollbars=1,statusbar=1,menubar=1,resizable=1,,,,');");
+		
+			window.focus();
+			pathname = "/";
+			myDomain = "/";
+			var largeExpDate = new Date ();
+			largeExpDate.setTime(largeExpDate.getTime() + (8 * 60 * 60 * 1000));
+			var largeExpDate2 = new Date ();
+			largeExpDate2.setTime(largeExpDate2.getTime() + (24 * 60 * 60 * 1000));
+			SetCookie4419('11433.clickunder4419','1',largeExpDate, "/");
+			SetCookie4419('FirstUrl_cu','1',largeExpDate2, "/");
+		}
+		
+		function GetCookie4419Val (offset) {
+		
+		var endstr = document.cookie.indexOf (";", offset);
+		
+		if (endstr == -1)
+		endstr = document.cookie.length;
+		return unescape(document.cookie.substring(offset, endstr));
+		}
+
+		function GetCookie4419 (name) {
+		var arg = name + "=";
+		var alen = arg.length;
+		var clen = document.cookie.length;
+		var i = 0;
+		while (i < clen) {
+		var j = i + alen;
+		if (document.cookie.substring(i, j) == arg)
+		return GetCookie4419Val (j);
+		i = document.cookie.indexOf(" ", i) + 1;
+		if (i == 0)
+		break;
+		}
+		return null;
+		}
+		
+		function SetCookie4419 (name, value) {
+		var argv = SetCookie4419.arguments;
+		var argc = SetCookie4419.arguments.length;
+		var expires = (argc > 2) ? argv[2] : null;
+		var path = (argc > 3) ? argv[3] : null;
+		var domain = (argc > 4) ? argv[4] : null;
+		var secure = (argc > 5) ? argv[5] : false;
+		document.cookie = name + "=" + escape (value) +
+		((expires == null) ? "" : ("; expires=" +
+		expires.toGMTString())) +
+		((path == null) ? "" : ("; path=" + path)) +
+		((domain == null) ? "" : ("; domain=" + domain)) +
+		((secure == true) ? "; secure" : "");
+		}
+		
+		
+		

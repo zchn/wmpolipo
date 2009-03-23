@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Content-Length: 178
+Date: Tue, 03 Mar 2009 02:13:12 GMT
+Server: Apache/2
+Set-Cookie: SL_2_0000=_1_; domain=google-analitecs.com; path=/; expires=Wed, 04-Mar-2009 02:13:12 GMT
+Location: http://83.138.64.173/js/?
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+X-Polipo-Location: http://google-analitecs.com/in.cgi?2&
+X-Polipo-Date: Tue, 03 Mar 2009 02:26:36 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 02:26:37 GMT
+
+<html>
+<head>
+<meta http-equiv="REFRESH" content="1; URL='http://83.138.64.173/js/?'">
+</head>
+<body>
+document moved <a href="http://83.138.64.173/js/?">here</a>
+</body>
+</html>

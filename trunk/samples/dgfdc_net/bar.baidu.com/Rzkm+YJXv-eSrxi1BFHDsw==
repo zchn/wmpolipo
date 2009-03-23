@@ -1,0 +1,56 @@
+HTTP/1.1 200 OK
+Content-Length: 1805
+Date: Thu, 26 Feb 2009 06:05:24 GMT
+Last-Modified: Thu, 26 Feb 2009 04:21:00 GMT
+Expires: Sun, 24 Feb 2019 06:05:24 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Polipo-Location: http://bar.baidu.com/sobar/sobar_top/sobar_top_404.html
+X-Polipo-Date: Thu, 26 Feb 2009 06:15:58 GMT
+X-Polipo-Access: Thu, 26 Feb 2009 06:15:58 GMT
+
+<!-- saved from url=(0022)http://internet.e-mail -->
+	<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><title>有问题百度一下</title>
+	<link rel=stylesheet href='http://z.baidu.com/sobar_dns.css' type='text/css'>
+	<style>
+	body{margin:0;padding:0;background:#f8fbff}
+	#main{width:525px}
+	</style>
+	</head>
+	<body>
+	<div id='main' align='left'>
+	<script language='javascript'>
+	var sobar;
+	try
+	{
+		sobar = new ActiveXObject( 'BaiduBar.Tool.1' ); 
+	}
+	catch(e)
+	{sobar=null}
+	if( sobar != null )
+	{
+		var tn=sobar.ClientName; 
+	}
+	</script>  
+	<div style='font-size:13px;padding-top:5px'>
+	<script language='javascript'>document.write( "<a target=_main href=http://www.baidu.com/s?wd=2月25火箭vs开拓者&cl=3&tn='+tn+'&bar=8>2月25火箭vs开拓者</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=李世石&cl=3&tn='+tn+'&bar=8>李世石</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=房地产振兴规划&cl=3&tn='+tn+'&bar=8>房地产振兴规划</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=龙虎英雄&cl=3&tn='+tn+'&bar=8>龙虎英雄</a> &nbsp;" );
+document.write('<br>');
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=蜜糖体&cl=3&tn='+tn+'&bar=8>蜜糖体</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=朱丽倩近照&cl=3&tn='+tn+'&bar=8>朱丽倩近照</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=电影蓝宝石&cl=3&tn='+tn+'&bar=8>电影蓝宝石</a> &nbsp;" );
+document.write( "<a target=_main href=http://www.baidu.com/s?wd=晋宁&cl=3&tn='+tn+'&bar=8>晋宁</a> &nbsp;" );
+</script>
+	</body>
+	<script language='javascript'>
+	if( sobar != null )
+	{
+		var tnobj = document.getElementsByName('tn')(0);
+		tnobj.value=tn;
+	}
+	</script>  
+	</html>

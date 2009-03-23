@@ -1,0 +1,292 @@
+HTTP/1.1 200 OK
+Content-Length: 3449
+ETag: "378092-d79-ae649400"
+Date: Tue, 03 Mar 2009 02:15:08 GMT
+Last-Modified: Wed, 10 May 2006 13:00:00 GMT
+Server: Apache/2.0.46 (Red Hat)
+Accept-Ranges: bytes
+Content-Type: text/css
+X-Polipo-Location: http://shinedancestudio.com.au/css/main.css
+X-Polipo-Date: Tue, 03 Mar 2009 02:26:34 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 02:26:34 GMT
+
+
+body
+{
+    background: #EEFFFF;
+    margin: 0 auto;
+    padding: 0, 0, 0, 0;
+    font: 11px/20px Verdana, "Times New Roman", Times, serif;
+    color: #333333;
+}
+     
+#container
+{
+    margin:20px auto;
+    width:800px;
+    background:url(../img/tiler.gif) repeat-y;
+}
+           
+#title
+{
+   width: 800px;
+   height: 179px;
+   background:url(../img/header.jpg) no-repeat;
+}
+
+#nav
+{
+   border: 0;
+   padding: 0;
+   margin: 0;
+
+}
+
+#nav a:hover
+{
+   border: 0;
+   padding: 0;
+   margin: 0;
+
+}
+
+#nav-home
+{
+   width: 80px;
+   height: 28px;
+   float: left;
+}
+
+#nav-news
+{
+   width: 105px;
+   height: 28px;
+   float: left;
+}
+
+#nav-dance
+{
+   width: 66px;
+   height: 28px;
+   float: left;
+}
+
+#nav-timetable
+{
+   width: 93px;
+   height: 28px;
+   float: left;
+}
+
+#nav-prices
+{
+   width: 78px;
+   height: 28px;
+   float: left;
+}
+
+#nav-about
+{
+   width: 83px;
+   height: 28px;
+   float: left;
+}
+
+#nav-teachers
+{
+   width: 85px;
+   height: 28px;
+   float: left;
+}
+
+#nav-photo
+{
+   width: 92px;
+   height: 28px;
+   float: left;
+}
+
+#nav-contact
+{
+   width: 118px;
+   height: 28px;
+   float: left;
+}
+
+#content
+{
+   width: 800px;
+   height: 300px;
+}
+
+#scrolled_section
+{ 
+
+  padding-right:25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  width:  725px;
+  height: 280px;
+  position: absolute;
+  overflow: auto;
+  scrollbar-arrow-color:#00q;
+  scrollbar-base-color:#D2EEFC;
+  scrollbar-darkshadow-color:#0;
+  scrollbar-face-color:#D2eefc;
+  scrollbar-shadow-color:#D2EEFC
+}
+
+#left_column
+{
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+
+#left_column p
+{
+  text-align:center;
+}
+
+#left_column a
+{
+ text-decoration: none;
+ border: 0px;
+ color: #7B5EA5;
+}
+
+
+#right_column
+{
+  width: 450px;
+  float: left;
+  text-align: left;
+}
+
+#right_column_centered
+{
+  width: 450px;
+  float: left;
+  text-align: center;
+}
+
+#footer
+{
+   width: 800px;
+   height: 50px;
+   background:url(../img/footer.gif) no-repeat;
+}
+
+h1
+{
+  font: 14px/20px Verdana, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: #F00000;
+
+}
+h2
+{
+  font: 14px/20px Verdana, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: left;
+  color: #7B5EA5;
+}
+
+#table1 table
+{
+ background: #EEFFFF;
+ text-align: center;
+ margin-top: 20px;
+ margin-left: 120px;
+ border: 1px solid #333333;
+ border-collapse: collapse;
+}
+
+#table2 table
+{
+ background: #EEFFFF;
+ text-align: center;
+ margin-top: 20px;
+ border: 1px solid #333333;
+ border-collapse: collapse;
+}
+
+th, td
+{
+ border: 0px;
+}
+
+a
+{
+  border: 0px;
+  text-decoration: none;
+  color: #7B5EA5
+}
+
+a img
+{
+  border: 0px;
+}
+
+a:hover
+{
+  font-weight: bold;
+}
+
+.purple
+{
+   color: #7B5EA5;
+   font-weight: bold;
+}
+
+.stronger
+{
+   font-weight: bold;
+}
+
+.slanty
+{
+  font-style: italic;
+}
+
+.super
+{
+  font-size: 9px;
+  font-weight: bold;
+  vertical-align: super;
+  color: #7b5ea5;
+}
+
+.tabletop
+{
+ background: #7b5ea5;
+ color: #FFFFFF;
+ font-weight: bold;
+}
+
+.minimenu
+{
+ font: 12px/20px Verdana
+}
+
+.undertable
+{
+ margin-left: 125px;
+}
+
+#footer a
+{
+  border: 0px;
+  text-decoration: none;
+  color: Black;
+}
+
+td.borderright {
+	border-right: 1px solid #333333;
+}
+
+td.borderbottom {
+	border-bottom: 1px solid #333333;
+}

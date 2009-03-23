@@ -1,0 +1,11 @@
+HTTP/1.1 404 Not Found
+Content-Length: 65
+Date: Wed, 25 Feb 2009 09:24:29 GMT
+Content-Type: text/html
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.taying.com/images/uploadimg/20092250405332038.jpg
+X-Polipo-Date: Wed, 25 Feb 2009 09:40:10 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:40:10 GMT
+
+<meta http-equiv="refresh" content="0;url=http://bbs.meying.com">

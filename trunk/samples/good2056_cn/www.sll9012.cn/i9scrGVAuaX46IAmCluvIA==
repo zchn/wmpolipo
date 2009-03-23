@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Length: 45
+ETag: "dac12ed3e092c91:645"
+Date: Thu, 26 Feb 2009 05:36:03 GMT
+Last-Modified: Thu, 19 Feb 2009 22:24:27 GMT
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.sll9012.cn/a1/06014.js
+X-Polipo-Date: Thu, 26 Feb 2009 05:46:59 GMT
+X-Polipo-Access: Thu, 26 Feb 2009 05:47:24 GMT
+
+var gameee = "http://d.bnksw.com/new/a1.css";

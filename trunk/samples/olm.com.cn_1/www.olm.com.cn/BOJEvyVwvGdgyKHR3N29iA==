@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Content-Length: 903
+Date: Tue, 17 Mar 2009 06:08:22 GMT
+Cache-Control: private
+Content-Type: text/html
+X-Powered-By: ASP.NET
+Server: Microsoft-IIS/4.0
+X-Polipo-Location: http://www.olm.com.cn/AdvManager/GB/adv_particular.asp?id=3
+X-Polipo-Date: Tue, 17 Mar 2009 06:16:59 GMT
+X-Polipo-Access: Tue, 17 Mar 2009 06:16:59 GMT
+
+<script language="javascript" src="/include/pub_script.js"></script>
+
+<html>
+	<head>
+		<title>慧聪商务网站</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<link rel="stylesheet" href="../../css/text.css" type="text/css">
+	</head>
+	<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<table width="95%" border="0" cellspacing="0" cellpadding="6" align="center">
+			
+			<tr>
+				<td align="center"><font color="#FFFFFF"><b>广告1</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor="#FFFFFF"><P>
+<TABLE style="WIDTH: 83px; HEIGHT: 57px" cellSpacing=6 cellPadding=1 width=80 border=1>
+<TBODY>
+<TR>
+<TD>
+<P align=center><A href="http://www.olm.com.cn/bbs/login.asp" target=_parent>东方龙马会员中心信息发布</A></P></TD></TR></TBODY></TABLE></P>
+<P> </P></td>
+			</tr>
+			
+		</table>
+	</body>
+</html>

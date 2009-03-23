@@ -1,0 +1,9 @@
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 0
+Date: Tue, 17 Mar 2009 05:54:24 GMT
+Server: AkamaiGHost
+Location: http://fpdownload2.macromedia.com/get/shockwave/cabs/flash/swflash.cab
+X-Polipo-Location: http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab
+X-Polipo-Date: Tue, 17 Mar 2009 06:03:02 GMT
+X-Polipo-Access: Tue, 17 Mar 2009 06:03:02 GMT
+
