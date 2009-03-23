@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Length: 18
+ETag: "80eac3994e91c91:40c"
+Date: Tue, 17 Mar 2009 03:23:13 GMT
+Last-Modified: Tue, 17 Feb 2009 22:25:13 GMT
+Content-Type: text/plain
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootseq.txt
+X-Polipo-Date: Mon, 16 Mar 2009 23:51:43 GMT
+X-Polipo-Access: Tue, 17 Mar 2009 06:03:19 GMT
+
+1401C9861E1124DB2C

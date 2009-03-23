@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Content-Length: 420
+Date: Mon, 16 Mar 2009 08:20:02 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: must-revalidate
+Server: Apache/2.2.3 (CentOS)
+X-Powered-By: PHP/5.1.6
+Pragma: no-cache
+Content-Type: text/html
+X-Polipo-Location: http://benyodil.cn/senks/al1/1/404.php
+X-Polipo-Date: Mon, 16 Mar 2009 08:31:05 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:31:05 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /senks/al1/1/404.php was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<hr>
+<address>Apache/2.2.3 (CentOS) Server at benyodil.cn Port 80</address>
+</body></html>

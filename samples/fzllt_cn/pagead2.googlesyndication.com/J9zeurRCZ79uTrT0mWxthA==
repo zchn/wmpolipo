@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Length: 94
+Date: Wed, 25 Feb 2009 10:20:12 GMT
+Last-Modified: Fri, 13 Feb 2009 00:46:40 GMT
+Expires: Wed, 11 Mar 2009 10:20:12 GMT
+Cache-Control: public
+P3P: policyref="http://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA PVD OTP OUR OTR IND OTC"
+Content-Type: text/javascript; charset=UTF-8
+Server: cafe
+X-Polipo-Location: http://pagead2.googlesyndication.com/pagead/render_ads.js
+X-Polipo-Date: Wed, 25 Feb 2009 10:30:38 GMT
+X-Polipo-Access: Thu, 05 Mar 2009 07:12:00 GMT
+
+(function(){
+var a="script";document.write("<"+a+">window.google_render_ad();</"+a+">");
+})()

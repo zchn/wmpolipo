@@ -1,0 +1,20 @@
+HTTP/1.1 404 Not Found
+Content-Length: 405
+Date: Wed, 25 Feb 2009 17:56:15 GMT
+Server: Apache/2
+Content-Type: text/html; charset=iso-8859-1
+X-Polipo-Location: http://5rublei.com/unique/load.php&opr=1
+X-Polipo-Date: Wed, 25 Feb 2009 10:13:08 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 10:13:08 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /unique/load.php&amp;opr=1 was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<hr>
+<address>Apache/2 Server at 5rublei.com Port 80</address>
+</body></html>

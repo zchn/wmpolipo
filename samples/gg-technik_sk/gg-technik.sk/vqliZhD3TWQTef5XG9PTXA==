@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Content-Length: 932
+Date: Tue, 03 Mar 2009 02:01:40 GMT
+Last-Modified: Sun, 04 May 2008 11:03:59 GMT
+Server: Apache
+Accept-Ranges: bytes
+Content-Type: text/css
+X-Polipo-Location: http://gg-technik.sk/css/leftmenu.css
+X-Polipo-Date: Tue, 03 Mar 2009 02:13:06 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 02:13:06 GMT
+
+A
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+A:link
+{
+    COLOR: #FFFFFF
+}
+A:visited
+{
+    COLOR: #FFFFFF
+}
+A:active
+{
+    COLOR: #FFFF00
+}
+A:hover
+{
+    COLOR: #FFFF00
+}
+BODY
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #5E8DFD
+}
+BODY
+{
+    SCROLLBAR-FACE-COLOR: #04214a;
+    SCROLLBAR-HIGHLIGHT-COLOR: #116ca0;
+    SCROLLBAR-SHADOW-COLOR: #7099d2;
+    SCROLLBAR-3DLIGHT-COLOR: #19599f;
+    SCROLLBAR-ARROW-COLOR: #ffffff;
+    SCROLLBAR-TRACK-COLOR: #1858a0;
+    SCROLLBAR-DARKSHADOW-COLOR: #19599f
+}
+P
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+TD
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}

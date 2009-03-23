@@ -1,0 +1,19 @@
+HTTP/1.1 302 Found
+Content-Length: 194
+Date: Tue, 03 Mar 2009 02:44:10 GMT
+Server: Apache/2.2.3 (Debian) PHP/5.2.0-8+etch11
+Set-Cookie: SL_8_0000=_1_; domain=517891.cn; path=/; expires=Wed, 04-Mar-2009 02:44:10 GMT
+Location: http://cximnik.asia/img/index.php
+Content-Type: text/html; charset=UTF-8
+X-Polipo-Location: http://517891.cn/in.cgi?8
+X-Polipo-Date: Tue, 03 Mar 2009 01:59:30 GMT
+X-Polipo-Access: Tue, 03 Mar 2009 01:59:30 GMT
+
+<html>
+<head>
+<meta http-equiv="REFRESH" content="1; URL='http://cximnik.asia/img/index.php'">
+</head>
+<body>
+document moved <a href="http://cximnik.asia/img/index.php">here</a>
+</body>
+</html>

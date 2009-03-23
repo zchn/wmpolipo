@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Content-Length: 1799
+Date: Wed, 25 Feb 2009 08:34:30 GMT
+Last-Modified: Tue, 23 Dec 2008 02:00:59 GMT
+Expires: Wed, 25 Feb 2009 10:34:30 GMT
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: application/x-javascript
+Server: YTS/1.16.0
+X-Polipo-Location: http://a.alimama.cn/js/sc.js
+X-Polipo-Date: Wed, 25 Feb 2009 08:44:55 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:40:11 GMT
+
+function Cookie(name) {this.$name = name;var allcookies = document.cookie;if (allcookies == "") return;var cookies = allcookies.split(';');var cookie = null;for(var i = 0; i < cookies.length; i++) {cookies[i] = cookies[i].replace(/(^\s*)|(\s*$)/g, "");if (cookies[i].substring(0, name.length+1) == (name + "=")) {cookie = cookies[i];break;}}if (cookie == null) return;var cookieval = cookie.substring(name.length+1);var a = cookieval.split('&');for(var i=0; i < a.length; i++)a[i] = a[i].split(':');for(var i = 0; i < a.length; i++) {this[a[i][0]] = decodeURIComponent(a[i][1]);}}
+Cookie.prototype.store = function(secondsToLive, path, domain, secure) {var cookieval = "";for(var prop in this) {if ((prop.charAt(0) == '$') || ((typeof this[prop]) == 'function'))continue;if (cookieval != "") cookieval += '&';cookieval += prop + ':' + encodeURIComponent(this[prop]);}var cookie = this.$name + '=' + cookieval;if (secondsToLive || secondsToLive == 0) {var date=new Date();date.setTime(date.getTime()+secondsToLive*1000);  cookie += "; max-age=" + (secondsToLive) + "; expires="+date.toUTCString();}if (path) cookie += "; path=" + path;if (domain) cookie += "; domain=" + domain;if (secure) cookie += "; secure";document.cookie = cookie;}
+
+function requestACookie(){
+var aCookieImg = document.createElement("img");
+aCookieImg.style.height = "0px";
+aCookieImg.style.width = "0px";
+aCookieImg.style.display = "none";
+aCookieImg.src = "http://acookie.alimama.com/1.gif?cache="+Math.floor(Math.random()*999)+"&pre="+escape(document.referrer);
+document.body.appendChild(aCookieImg);
+}
+
+window.onload = function(){
+var sCookie = new Cookie("scna");
+if(!sCookie.a){
+sCookie.a = "yes";
+sCookie.store(3,"/",".alimama.com");
+if(typeof(requestACookie) == "function"){
+requestACookie();
+}
+}
+}

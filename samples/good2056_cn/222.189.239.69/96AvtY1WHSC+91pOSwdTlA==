@@ -1,0 +1,7 @@
+HTTP/1.1 302 Found
+Content-Length: 0
+Date: Thu, 26 Feb 2009 05:49:36 GMT
+Location: http://59.108.246.163:9203/85E09E595D7DF7AB2610AC7E4807C7A554B45849/222.189.239.69/xxb.exe
+X-Polipo-Location: http://222.189.239.69/xxb.exe
+X-Polipo-Access: Thu, 26 Feb 2009 05:49:36 GMT
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Length: 98
+Date: Mon, 16 Mar 2009 08:20:38 GMT
+Server: Apache/1.3.37 (Unix) PHP/5.1.6
+X-Powered-By: PHP/5.1.6
+Content-Type: text/html
+X-Polipo-Location: http://trafficroup.com/go1.php?account=trafficman&ref=http://inbux.info/
+X-Polipo-Date: Mon, 16 Mar 2009 08:29:06 GMT
+X-Polipo-Access: Mon, 16 Mar 2009 08:29:07 GMT
+
+<script>document.location = 'go2.php?account=trafficman&ref=http://inbux.info/&cookie=0'</script>

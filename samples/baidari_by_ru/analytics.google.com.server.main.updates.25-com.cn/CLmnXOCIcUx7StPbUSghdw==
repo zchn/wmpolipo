@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Wed, 25 Feb 2009 11:12:33 GMT
+Server: nginx/0.7.38
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/5.1.6
+X-Polipo-Location: http://analytics.google.com.server.main.updates.25-com.cn/support.cn/javac.php
+X-Polipo-Date: Wed, 25 Feb 2009 09:30:39 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:30:39 GMT
+

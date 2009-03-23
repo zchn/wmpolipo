@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Content-Length: 908
+ETag: "a0d3a336c5f4c81:36b3"
+Date: Wed, 25 Feb 2009 09:24:17 GMT
+Last-Modified: Sat, 02 Aug 2008 17:28:44 GMT
+Content-Type: application/x-javascript
+Accept-Ranges: bytes
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-Polipo-Location: http://www.taying.com/js/index1.js
+X-Polipo-Date: Wed, 25 Feb 2009 09:39:58 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:39:59 GMT
+
+document.writeln("<script type=\"text\/JavaScript\"> ");
+document.writeln("alimama_pid=\"mm_10083484_873383_1783698\"; ");
+document.writeln("alimama_titlecolor=\"0000FF\"; ");
+document.writeln("alimama_descolor =\"000000\"; ");
+document.writeln("alimama_bgcolor=\"FFFFFF\"; ");
+document.writeln("alimama_bordercolor=\"E6E6E6\"; ");
+document.writeln("alimama_linkcolor=\"008000\"; ");
+document.writeln("alimama_bottomcolor=\"FFFFFF\"; ");
+document.writeln("alimama_anglesize=\"0\"; ");
+document.writeln("alimama_bgpic=\"0\"; ");
+document.writeln("alimama_icon=\"0\"; ");
+document.writeln("alimama_sizecode=\"15\"; ");
+document.writeln("alimama_width=950; ");
+document.writeln("alimama_height=90; ");
+document.writeln("alimama_type=2; ");
+document.writeln("<\/script> ");
+document.writeln("<script src=\"http:\/\/a.alimama.cn\/inf.js\" type=text\/javascript> ");
+document.writeln("<\/script>")

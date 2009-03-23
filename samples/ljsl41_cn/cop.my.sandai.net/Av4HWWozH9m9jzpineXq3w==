@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Length: 135
+ETag: "1036662459"
+Date: Wed, 25 Feb 2009 09:29:27 GMT
+Last-Modified: Wed, 25 Feb 2009 03:02:18 GMT
+Expires: Wed, 25 Feb 2009 10:29:27 GMT
+Content-Type: text/javascript
+Accept-Ranges: bytes
+Server: lighttpd/1.5.0
+X-Polipo-Location: http://cop.my.sandai.net/busi/upload/pubbs/cop/30/23654//_mydomains.js
+X-Polipo-Date: Wed, 25 Feb 2009 09:39:58 GMT
+X-Polipo-Access: Wed, 25 Feb 2009 09:39:58 GMT
+
+			var xlunCopSitesMap = new Array();
+						xlunCopSitesMap['16730'] = "taying.com";
+			xlunCopSitesMap['16731'] = "kuying.com.cn";
