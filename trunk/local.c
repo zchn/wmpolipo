@@ -233,9 +233,10 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
                      "<input type=submit name=\"free-chunk-arenas\" "
                      "value=\"Free chunk arenas\"></form></p>\n"
                      "<form method=POST action=\"/polipo/status?\">"
+                     "Change diskCacheSubdir, current: %s <br />"
                      "<input type=\"text\" name=\"subdir\" />"
                      "<input type=submit  "
-                     "value=\"Change the diskCacheSubdir\"></form></p>\n"
+                     "value=\"Change subdir\"></form></p>\n"
                      "<p><a href=\"/polipo/\">back</a></p>"
                      "</body></html>\n",
                      proxyName->string, proxyPort,
@@ -248,7 +249,8 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
                      publicObjectCount, privateObjectCount,
                      used_chunks * CHUNK_SIZE / 1024, used_chunks,
                      totalChunkArenaSize() / 1024,
-                     used_atoms);
+                     used_atoms,
+                     borrowDiskCacheSubdir(NULL)->string);
         object->expires = current_time.tv_sec;
         object->length = object->size;
     } else if(matchUrl("/polipo/config", object)) {
