@@ -32,6 +32,8 @@ AtomPtr atomReopenLog;
 AtomPtr atomDiscardObjects;
 AtomPtr atomWriteoutObjects;
 AtomPtr atomFreeChunkArenas;
+AtomPtr atomChangeSubDirectory;
+AtomPtr atomRedirectToUrl;
 
 void
 preinitLocal()
@@ -41,6 +43,8 @@ preinitLocal()
     atomDiscardObjects = internAtom("discard-objects");
     atomWriteoutObjects = internAtom("writeout-objects");
     atomFreeChunkArenas = internAtom("free-chunk-arenas");
+    atomChangeSubDirectory = internAtom("subdir");
+    atomRedirectToUrl = internAtom("redirect");
 
     /* These should not be settable for obvious reasons */
     CONFIG_VARIABLE(disableLocalInterface, CONFIG_BOOLEAN,
@@ -462,6 +466,10 @@ httpSpecialDoSideFinish(AtomPtr data, HTTPRequestPtr requestor)
                 writeoutObjects(1);
             else if(name == atomFreeChunkArenas)
                 free_chunk_arenas();
+            else if(name == atomChangeSubDirectory)
+                change_sub_directory();
+            else if(name == atomRedirectToUrl)
+                redirect_to_url();
             else {
                 abortObject(object, 400, internAtomF("Unknown action %s",
                                                      name->string));

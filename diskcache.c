@@ -33,6 +33,7 @@ int maxDiskEntries = 32;
 
 AtomPtr diskCacheRoot;
 AtomPtr localDocumentRoot;
+AtomPtr diskCacheSubdir;
 
 DiskCacheEntryPtr diskEntries = NULL, diskEntriesLast = NULL;
 int numDiskEntries = 0;
@@ -60,6 +61,10 @@ static DiskCacheEntryRec negativeEntry = {
 #define DISK_CACHE_ROOT "/var/cache/polipo/"
 #endif
 
+#ifndef DISK_CACHE_SUBDIR
+#define DISK_CACHE_ROOT "empty/"
+#endif
+
 static int maxDiskEntriesSetter(ConfigVariablePtr, void*);
 static int atomSetterFlush(ConfigVariablePtr, void*);
 static int reallyWriteoutToDisk(ObjectPtr object, int upto, int max);
@@ -69,6 +74,8 @@ preinitDiskcache()
 {
     diskCacheRoot = internAtom(DISK_CACHE_ROOT);
     localDocumentRoot = internAtom(LOCAL_ROOT);
+    diskCacheSubdir = internAtom(DISK_CACHE_SUBDIR);
+    
 
     CONFIG_VARIABLE_SETTABLE(diskCacheDirectoryPermissions, CONFIG_OCTAL,
                              configIntSetter,
@@ -160,6 +167,7 @@ initDiskcache()
 {
     int rc;
 
+    diskCacheSubdir = maybeAddSlash(diskCacheSubdir);
     diskCacheRoot = expandTilde(maybeAddSlash(diskCacheRoot));
     rc = checkRoot(diskCacheRoot);
     if(rc <= 0) {
@@ -2503,6 +2511,22 @@ expireDiskObjects()
     return;
 }
 
+int
+setDiskCacheSubdir(AtomPtr subdir,AtomPtr user)
+{
+    AtomPtr tmp = diskCacheSubdir;
+    diskCacheSubdir = Maybeaddslash(retainAtom(subdir));
+    releaseAtom(tmp);
+    return 0;
+}
+
+AtomPtr
+borrowDiskCacheSubdir(AtomPtr user)
+{
+    return diskCacheSubdir;
+}
+
+
 #else
 
 void
@@ -2564,4 +2588,17 @@ diskEntrySize(ObjectPtr object)
 {
     return -1;
 }
+
+int
+setDiskCacheSubdir(AtomPtr subdir,AtomPtr user)
+{
+    return 0;
+}
+
+AtomPtr
+borrowDiskCacheSubdir(AtomPtr user)
+{
+    return NULL;
+}
+
 #endif

@@ -70,3 +70,6 @@ int revalidateDiskEntry(ObjectPtr object);
 DiskObjectPtr readDiskObject(char *filename, struct stat *sb);
 void indexDiskObjects(FILE *out, const char *root, int r);
 void expireDiskObjects(void);
+int setDiskCacheSubdir(AtomPtr subdir,AtomPtr user);
+AtomPtr borrowDiskCacheSubdir(AtomPtr user);
+
