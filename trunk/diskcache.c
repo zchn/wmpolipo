@@ -2529,6 +2529,7 @@ int
 setDiskCacheSubdir(AtomPtr subdir,AtomPtr user)
 {
     writeoutObjects(1);//Don't know if there are performance issues
+    discardObjects(1, 1);
     
     AtomPtr tmp = diskCacheSubdir;
     diskCacheSubdir = maybeAddSlash(retainAtom(subdir));
