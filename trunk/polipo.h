@@ -35,6 +35,7 @@ THE SOFTWARE.
 #include <stdarg.h>
 #include <stdio.h>
 #include <errno.h>
+#include <signal.h>
 #include <string.h>
 #include <assert.h>
 #include <unistd.h>
