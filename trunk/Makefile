@@ -75,8 +75,8 @@ OBJS = util.o event.o io.o chunk.o atom.o object.o log.o diskcache.o main.o \
        http_parse.o parse_time.o dns.o forbidden.o \
        md5import.o ftsimport.o socks.o mingw.o
 
-polipo$(EXE): $(OBJS)
-	$(CC) $(CFLAGS) $(LDFLAGS) -o polipo$(EXE) $(OBJS) $(MD5LIBS) $(LDLIBS)
+wmpolipo$(EXE): $(OBJS)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o wmpolipo$(EXE) $(OBJS) $(MD5LIBS) $(LDLIBS)
 
 ftsimport.o: ftsimport.c fts_compat.c
 
@@ -84,7 +84,7 @@ md5import.o: md5import.c md5.c
 
 .PHONY: all install install.binary install.man
 
-all: polipo$(EXE) polipo.info html/index.html localindex.html
+all: wmpolipo$(EXE) polipo.info html/index.html localindex.html
 
 install: install.binary install.man
 
@@ -92,8 +92,8 @@ install.binary: all
 	mkdir -p $(TARGET)$(BINDIR)
 	mkdir -p $(TARGET)$(LOCAL_ROOT)
 	mkdir -p $(TARGET)$(LOCAL_ROOT)/doc
-	rm -f $(TARGET)$(BINDIR)/polipo
-	cp -f polipo $(TARGET)$(BINDIR)/
+	rm -f $(TARGET)$(BINDIR)/wmpolipo
+	cp -f wmpolipo $(TARGET)$(BINDIR)/
 	cp -f html/* $(TARGET)$(LOCAL_ROOT)/doc
 	cp -f localindex.html $(TARGET)$(LOCAL_ROOT)/index.html
 
@@ -136,7 +136,7 @@ TAGS: $(SRCS)
 .PHONY: clean
 
 clean:
-	-rm -f polipo$(EXE) *.o *~ core TAGS gmon.out
+	-rm -f wmpolipo$(EXE) *.o *~ core TAGS gmon.out
 	-rm -f polipo.cp polipo.fn polipo.log polipo.vr
 	-rm -f polipo.cps polipo.info* polipo.pg polipo.toc polipo.vrs
 	-rm -f polipo.aux polipo.dvi polipo.ky polipo.ps polipo.tp
