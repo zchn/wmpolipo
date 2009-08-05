@@ -35,6 +35,14 @@ AtomPtr atomFreeChunkArenas;
 AtomPtr atomChangeSubDirectory;
 AtomPtr atomRedirectToUrl;
 
+int
+redirect_to_url(AtomPtr url)
+{
+    do_log(L_WARN,"Redirect_To_Url %s not implemented.\n",url->string);
+    return 0;
+}
+
+
 void
 preinitLocal()
 {
@@ -224,6 +232,10 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
                      "<form method=POST action=\"/polipo/status?\">"
                      "<input type=submit name=\"free-chunk-arenas\" "
                      "value=\"Free chunk arenas\"></form></p>\n"
+                     "<form method=POST action=\"/polipo/status?\">"
+                     "<input type=\"text\" name=\"subdir\" />"
+                     "<input type=submit  "
+                     "value=\"Change the diskCacheSubdir\"></form></p>\n"
                      "<p><a href=\"/polipo/\">back</a></p>"
                      "</body></html>\n",
                      proxyName->string, proxyPort,
@@ -456,6 +468,12 @@ httpSpecialDoSideFinish(AtomPtr data, HTTPRequestPtr requestor)
                 internAtomN(list->list[i]->string, 
                             equals - list->list[i]->string) :
                 retainAtom(list->list[i]);
+            AtomPtr value =
+                equals ?
+                internAtomN(equals+1, 
+                            list->list[i]->length - (equals - list->list[i]->string) - 1) :
+                NULL;
+            
             if(name == atomInitForbidden)
                 initForbidden();
             else if(name == atomReopenLog)
@@ -466,14 +484,18 @@ httpSpecialDoSideFinish(AtomPtr data, HTTPRequestPtr requestor)
                 writeoutObjects(1);
             else if(name == atomFreeChunkArenas)
                 free_chunk_arenas();
-            else if(name == atomChangeSubDirectory)
-                change_sub_directory();
+            else if(name == atomChangeSubDirectory){
+                do_log(L_INFO,"get command %s value %s\n",list->list[i]->string,value->string);
+                
+                change_sub_directory(value,NULL);
+            }
             else if(name == atomRedirectToUrl)
-                redirect_to_url();
+                redirect_to_url(value);
             else {
                 abortObject(object, 400, internAtomF("Unknown action %s",
                                                      name->string));
                 releaseAtom(name);
+                releaseAtom(value);
                 destroyAtomList(list);
                 goto out;
             }

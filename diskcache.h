@@ -72,4 +72,4 @@ void indexDiskObjects(FILE *out, const char *root, int r);
 void expireDiskObjects(void);
 int setDiskCacheSubdir(AtomPtr subdir,AtomPtr user);
 AtomPtr borrowDiskCacheSubdir(AtomPtr user);
-
+int change_sub_directory(AtomPtr subdir, AtomPtr user);
