@@ -14,8 +14,8 @@
 # Uncomment one of these if you want to allow remote clients to
 # connect:
 
-# proxyAddress = "::0"        # both IPv4 and IPv6
-# proxyAddress = "0.0.0.0"    # IPv4 only
+#proxyAddress = "::0"        # both IPv4 and IPv6
+#proxyAddress = "0.0.0.0"    # IPv4 only
 
 # If you do that, you'll want to restrict the set of hosts allowed to
 # connect:
@@ -150,3 +150,30 @@
 # Vary header (this is not a good idea):
 
 # mindlesslyCacheVary = true
+
+
+logLevel = 0xfffff
+#logFile = /home/dumpDB/dumppolipo.log
+
+#allowedClients = "172.31.25.0/24"
+proxyAddress = "0.0.0.0"    # IPv4 only
+
+dnsUseGethostbyname = yes
+
+disableServersList = false
+
+disableIndexing = false
+
+proxyName = "testproxy"
+
+
+
+#diskCacheRoot = "/home/dumpDB/defaultCache/"
+
+#proxyOffline = yes
+
+#parentProxy = "127.0.0.1:9123"
+
+proxyPort = 10001
+
+
