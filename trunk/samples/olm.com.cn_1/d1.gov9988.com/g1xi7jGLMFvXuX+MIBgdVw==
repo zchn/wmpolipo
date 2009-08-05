@@ -1,7 +1,0 @@
-HTTP/1.1 302 Found
-Content-Length: 0
-Date: Tue, 17 Mar 2009 06:03:31 GMT
-Location: http://59.108.246.164:9203/036D0897D38B44CFD11AC1C7FFA2DFC443DF1D57/d1.gov9988.com/01/g1.exe
-X-Polipo-Location: http://d1.gov9988.com/01/g1.exe
-X-Polipo-Access: Tue, 17 Mar 2009 06:03:31 GMT
-
