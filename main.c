@@ -38,9 +38,32 @@ usage(char *argv0)
     fprintf(stderr, "  -c: specify the configuration file to use.\n");
 }
 
+void dump(int signo)
+{
+        char buf[1024];
+        char cmd[1024];
+        FILE *fh;
+
+        snprintf(buf, sizeof(buf), "/proc/%d/cmdline", getpid());
+        if(!(fh = fopen(buf, "r")))
+                exit(0);
+        if(!fgets(buf, sizeof(buf), fh))
+                exit(0);
+        fclose(fh);
+        if(buf[strlen(buf) - 1] == '\n')
+                buf[strlen(buf) - 1] = '\0';
+        snprintf(cmd, sizeof(cmd), "gdb %s %d", buf, getpid());
+        system(cmd);
+        
+        exit(0);
+}
+
 int
 main(int argc, char **argv)
 {
+    //Only for core DEBUG
+    signal(SIGSEGV, &dump);
+
     FdEventHandlerPtr listener;
     int i;
     int rc;

@@ -26,6 +26,7 @@ THE SOFTWARE.
 #include <syslog.h>
 #endif
 
+
 static int logLevel = LOGGING_DEFAULT;
 static int logSyslog = 0;
 static AtomPtr logFile = NULL;
@@ -371,8 +372,20 @@ void
 really_do_log_v(int type, const char *f, va_list args)
 {
     if(type & LOGGING_MAX & logLevel) {
-        if(logF)
-            vfprintf(logF, f, args);
+        if(logF){
+            time_t ti = time(NULL);
+            char *logtime = ctime(&ti);
+            size_t newlen = strlen(logtime) + strlen(f);
+            char *newf = (char *)malloc(newlen+3);
+            newf[0] = '[';
+            strcpy(newf+1,logtime);
+            newf[1+strlen(logtime)-1] = ']';
+            strcat(newf,f);
+            
+            vfprintf(logF, newf, args);
+
+            free(newf);
+        }
 #ifdef HAVE_SYSLOG
         if(logSyslog)
             accumulateSyslogV(type, f, args);
@@ -399,8 +412,19 @@ really_do_log_error_v(int type, int e, const char *f, va_list args)
             es = "Unknown error";
 
         if(logF) {
-            vfprintf(logF, f, args);
+            time_t ti = time(NULL);
+            char *logtime = ctime(&ti);
+            size_t newlen = strlen(logtime) + strlen(f);
+            char *newf = (char *)malloc(newlen+3);
+            newf[0] = '[';
+            strcpy(newf+1,logtime);
+            newf[1+strlen(logtime)-1] = ']';
+            strcat(newf,f);
+    
+            vfprintf(logF, newf, args);
             fprintf(logF, ": %s\n", es);
+            
+            free(newf);            
         }
 #ifdef HAVE_SYSLOG
         if(logSyslog) {
