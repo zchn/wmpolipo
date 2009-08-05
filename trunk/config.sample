@@ -168,7 +168,7 @@ proxyName = "testproxy"
 
 
 
-#diskCacheRoot = "/home/dumpDB/defaultCache/"
+diskCacheRoot = "/tmp/polipocache/"
 
 #proxyOffline = yes
 

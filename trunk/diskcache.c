@@ -62,7 +62,7 @@ static DiskCacheEntryRec negativeEntry = {
 #endif
 
 #ifndef DISK_CACHE_SUBDIR
-#define DISK_CACHE_ROOT "empty/"
+#define DISK_CACHE_SUBDIR "empty/"
 #endif
 
 static int maxDiskEntriesSetter(ConfigVariablePtr, void*);
@@ -382,6 +382,15 @@ urlDirname(char *buf, int n, const char *url, int len)
     if(buf[j - 1] != '/')
         buf[j++] = '/';
 
+    AtomPtr subdir = borrowDiskCacheSubdir(NULL);
+    if(subdir == NULL)
+        return -1;
+    memcpy(buf+j, subdir->string, subdir->length);
+    j += subdir->length;
+
+    if(buf[j - 1] != '/')
+        buf[j++] = '/';
+    
     for(i = 7; i < len; i++) {
         if(i >= len || url[i] == '/')
             break;
@@ -426,6 +435,11 @@ dirnameUrl(char *url, int n, char *name, int len)
         return NULL;
     if(memcmp(name, diskCacheRoot->string, k) != 0)
         return NULL;
+
+    //ignore the diskCacheSubdir
+    for(;k < len && name[k] != '/'; k++);
+    k++;
+    
     if(n < 8)
         return NULL;
     memcpy(url, "http://", 7);
@@ -2514,10 +2528,21 @@ expireDiskObjects()
 int
 setDiskCacheSubdir(AtomPtr subdir,AtomPtr user)
 {
+    writeoutObjects(1);//Don't know if there are performance issues
+    
     AtomPtr tmp = diskCacheSubdir;
-    diskCacheSubdir = Maybeaddslash(retainAtom(subdir));
+    diskCacheSubdir = maybeAddSlash(retainAtom(subdir));
     releaseAtom(tmp);
+    do_log(L_INFO, "diskCacheSubdir changed to %s\n",
+                      diskCacheSubdir->string);
+
     return 0;
+}
+
+int
+change_sub_directory(AtomPtr subdir, AtomPtr user)
+{
+    return setDiskCacheSubdir(subdir,user);
 }
 
 AtomPtr
