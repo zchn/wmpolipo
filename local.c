@@ -186,6 +186,8 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
     object->flags &= ~OBJECT_INITIAL;
     object->flags |= OBJECT_DYNAMIC;
 
+    do_log(L_INFO, "Matching object key: %s", (char *)(object->key));
+    
     if(object->key_size == 8 && memcmp(object->key, "/polipo/", 8) == 0) {
         objectPrintf(object, 0,
                      "<!DOCTYPE HTML PUBLIC "
@@ -204,7 +206,84 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
                      "</body></html>\n");
         object->length = object->size;
     } else if(matchUrl("/polipo/status", object)) {
-        objectPrintf(object, 0,
+        AtomListPtr list = NULL;
+        int i;
+        AtomPtr redirecturl = NULL;
+        
+        int pos = -1;
+        for (i = 0; i < object->key_size; ++i){
+            if(((char *)(object->key))[i] == '?'){
+                pos = i;
+                break;
+            }
+        }
+        if (pos != -1 && pos != object->key_size-1) {
+            AtomPtr getdata = internAtomN(object->key+pos+1,object->key_size-pos-1);
+            list = urlDecode(getdata->string, getdata->length);
+        }
+
+        if(list != NULL) {
+            for(i = 0; i < list->length; i++) {
+                char *equals = 
+                    memchr(list->list[i]->string, '=', list->list[i]->length);
+                AtomPtr name = 
+                    equals ? 
+                    internAtomN(list->list[i]->string, 
+                                equals - list->list[i]->string) :
+                    retainAtom(list->list[i]);
+                AtomPtr value =
+                    equals ?
+                    internAtomN(equals+1, 
+                                list->list[i]->length - (equals - list->list[i]->string) - 1) :
+                    NULL;
+                
+                if(name == atomInitForbidden)
+                    initForbidden();
+                else if(name == atomReopenLog)
+                    reopenLog();
+                else if(name == atomDiscardObjects)
+                    discardObjects(1, 0);
+                else if(name == atomWriteoutObjects)
+                    writeoutObjects(1);
+                else if(name == atomFreeChunkArenas)
+                    free_chunk_arenas();
+                else if(name == atomChangeSubDirectory){
+                    do_log(L_INFO,"get command %s value %s\n",list->list[i]->string,value->string);
+                
+                    change_sub_directory(value,NULL);
+                }
+                else if(name == atomRedirectToUrl){
+                    redirecturl = value;
+                    retainAtom(redirecturl);
+                }
+                else {
+                    abortObject(object, 400, internAtomF("Unknown get action %s",
+                                                         name->string));
+                    releaseAtom(name);
+                    releaseAtom(value);
+                    destroyAtomList(list);
+                    goto out;
+                }
+                releaseAtom(name);
+                releaseAtom(value);
+            }
+            destroyAtomList(list);
+        }
+        if (redirecturl != NULL){
+            object->date = current_time.tv_sec;
+            object->age = current_time.tv_sec;
+            AtomPtr tmp = internAtom("\r\nLocation: ");
+            object->headers = atomCat(tmp,redirecturl->string);
+            releaseAtom(tmp);
+            tmp = NULL;
+            releaseAtom(redirecturl);
+            redirecturl = NULL;
+            object->code = 302;
+            object->message = internAtom("Done");
+            object->flags &= ~OBJECT_INITIAL;
+            object->length = 0;
+        }else{
+            objectPrintf(object, 0,
                      "<!DOCTYPE HTML PUBLIC "
                      "\"-//W3C//DTD HTML 4.01 Transitional//EN\" "
                      "\"http://www.w3.org/TR/html4/loose.dtd\">\n"
@@ -251,8 +330,9 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
                      totalChunkArenaSize() / 1024,
                      used_atoms,
                      borrowDiskCacheSubdir(NULL)->string);
-        object->expires = current_time.tv_sec;
-        object->length = object->size;
+            object->expires = current_time.tv_sec;
+            object->length = object->size;
+        }
     } else if(matchUrl("/polipo/config", object)) {
         fillSpecialObject(object, printConfig, NULL);
         object->expires = current_time.tv_sec + 5;
@@ -307,7 +387,7 @@ httpSpecialRequest(ObjectPtr object, int method, int from, int to,
     } else {
         abortObject(object, 404, internAtom("Not found"));
     }
-
+out:
     object->flags &= ~OBJECT_VALIDATING;
     notifyObject(object);
     return 1;
@@ -413,6 +493,8 @@ httpSpecialDoSideFinish(AtomPtr data, HTTPRequestPtr requestor)
 {
     ObjectPtr object = requestor->object;
 
+    do_log(L_INFO,"post data: %s",data->string);
+        
     if(matchUrl("/polipo/config", object)) {
         AtomListPtr list = NULL;
         int i, rc;
@@ -502,6 +584,7 @@ httpSpecialDoSideFinish(AtomPtr data, HTTPRequestPtr requestor)
                 goto out;
             }
             releaseAtom(name);
+            releaseAtom(value);
         }
         destroyAtomList(list);
         object->date = current_time.tv_sec;
