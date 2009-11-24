@@ -2189,7 +2189,7 @@ httpServerHandlerHeaders(int eof,
     switch(code) {
     case 200:
     case 300: case 301: case 302: case 303: case 307:
-    case 403: case 404: case 405: case 401:
+    case 403: case 404: case 405: case 401: case 500:
         if(new_object->message) releaseAtom(new_object->message);
         new_object->code = code;
         new_object->message = message;
