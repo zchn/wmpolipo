@@ -487,6 +487,8 @@ httpMessage(int code)
         return "Method not allowed";
     case 407:
         return "Proxy authentication required";
+    case 500:
+        return "Internal Server Error CZJXXX";
     default:
         return "Unknown error code";
     }
@@ -1020,7 +1022,7 @@ httpTweakCachability(ObjectPtr object)
     if(code != 200 && code != 206 && 
        code != 300 && code != 301 && code != 302 && code != 303 &&
        code != 304 && code != 307 &&
-       code != 403 && code != 404 && code != 405 && code != 416) {
+       code != 403 && code != 404 && code != 405 && code != 416 && code != 500) {
         object->cache_control |=
             (CACHE_NO_HIDDEN | CACHE_MISMATCH | OBJECT_LINEAR);
     } else if(code != 200 && code != 206 &&

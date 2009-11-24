@@ -170,10 +170,10 @@ proxyName = "testproxy"
 
 diskCacheRoot = "/tmp/polipocache/"
 
-#proxyOffline = yes
+proxyOffline = yes
 
 #parentProxy = "127.0.0.1:9123"
 
 proxyPort = 10001
 
-
+#authCredentials = "joyan:pass"
