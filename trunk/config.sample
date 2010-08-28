@@ -168,7 +168,7 @@ proxyName = "testproxy"
 
 
 
-diskCacheRoot = "/tmp/polipocache/"
+diskCacheRoot = "/home/joyan/polipocache/"
 
 proxyOffline = yes
 
